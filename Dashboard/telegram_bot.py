@@ -19,7 +19,7 @@ def start(update: Update, context: CallbackContext):
 # Configuración del bot
 def main():
     # Usa el token de tu bot de Telegram
-    TOKEN = '7237293197:AAFgcNTu9ehfih8iSIX4ZezE-WOux65RAbs'
+    TOKEN = 'BOT_TOKEN'
     
     updater = Updater(TOKEN, use_context=True)
 
